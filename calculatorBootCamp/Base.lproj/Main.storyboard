@@ -43,9 +43,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="acButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WcO-Sq-4Gz"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tH-Jd-8Ls" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="92.666666666666686" y="0.0" width="75.333333333333314" height="75.333333333333329"/>
@@ -82,9 +79,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfX-QE-nr4"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -138,9 +132,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VQk-HB-UXo"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -194,9 +185,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tM6-kK-Ujt"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -250,9 +238,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyg-5Q-lf1"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

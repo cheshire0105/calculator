@@ -12,9 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultText: UITextField!
     
-    var firstNumber : Double = 0
-    var secondNumber : Double = 0
-    
+    var firstNumber : String = ""
+    var secondNumber : String = ""
     
 
     override func viewDidLoad() {
@@ -25,32 +24,9 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func acButton(_ sender: Any) {
-        
-    }
-    
-    
-    @IBAction func plusButton(_ sender: Any) {
-        
-    }
-    
-    
-    @IBAction func minusButton(_ sender: Any) {
-        
-    }
     
     
     
-    @IBAction func divideButton(_ sender: Any) {
-        
-        
-    }
     
-    
-    
-    @IBAction func multiplyButton(_ sender: Any) {
-        
-        
-    }
     
 }
