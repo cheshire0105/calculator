@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var resultText: UITextField!
+    @IBOutlet weak var textField: UITextField!
     
     var firstNumber : String = ""
     var secondNumber : String = ""
@@ -22,6 +22,16 @@ class ViewController: UIViewController {
         
 
     }
+    
+    
+    @IBAction func numButton(_ sender: UIButton) {
+        guard let operatorB =
+                sender.titleLabel?.text else {return}
+        
+        print(operatorB)
+    }
+    
+    
     
     
     
