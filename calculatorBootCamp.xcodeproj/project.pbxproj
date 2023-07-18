@@ -61,11 +61,11 @@
 				FF557B062A656977001EDEB4 /* AppDelegate.swift */,
 				FF557B082A656977001EDEB4 /* SceneDelegate.swift */,
 				FF557B202A657CC3001EDEB4 /* ViewController.swift */,
+				FF557B222A658D8A001EDEB4 /* Roundbutton.swift */,
 				FF557B0C2A656977001EDEB4 /* Main.storyboard */,
 				FF557B0F2A65697A001EDEB4 /* Assets.xcassets */,
 				FF557B112A65697A001EDEB4 /* LaunchScreen.storyboard */,
 				FF557B142A65697A001EDEB4 /* Info.plist */,
-				FF557B222A658D8A001EDEB4 /* Roundbutton.swift */,
 			);
 			path = calculatorBootCamp;
 			sourceTree = "<group>";

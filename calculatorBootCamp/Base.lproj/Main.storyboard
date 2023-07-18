@@ -43,9 +43,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="acButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WcO-Sq-4Gz"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tH-Jd-8Ls" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="92.666666666666686" y="0.0" width="75.333333333333314" height="75.333333333333329"/>
@@ -82,9 +79,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfX-QE-nr4"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -102,6 +96,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTf-Al-F7z"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj1-Q2-anf" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="92.666666666666686" y="0.0" width="75.333333333333314" height="75.666666666666671"/>
@@ -114,6 +111,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xlx-1A-Eb7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNm-Dd-rhb" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="185" y="0.0" width="75.666666666666686" height="75.666666666666671"/>
@@ -126,6 +126,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDA-Vy-yz3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAl-bJ-Hua" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="277.66666666666669" y="0.0" width="75.333333333333314" height="75.666666666666671"/>
@@ -138,9 +141,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VQk-HB-UXo"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -158,6 +158,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TvJ-j5-fjS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8V-bt-xTr" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="92.666666666666686" y="0.0" width="75.333333333333314" height="75.333333333333329"/>
@@ -170,6 +173,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOZ-oW-Xz8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPT-6I-Of5" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="185" y="0.0" width="75.666666666666686" height="75.333333333333329"/>
@@ -182,6 +188,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tkR-Ke-d7M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDV-8l-o0E" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="277.66666666666669" y="0.0" width="75.333333333333314" height="75.333333333333329"/>
@@ -194,9 +203,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tM6-kK-Ujt"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -214,6 +220,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bwy-Da-DdA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mki-Vz-bUX" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="92.666666666666686" y="0.0" width="75.333333333333314" height="75.666666666666671"/>
@@ -226,6 +235,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cHA-3o-jdp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiY-ME-46m" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
                                                 <rect key="frame" x="185" y="0.0" width="75.666666666666686" height="75.666666666666671"/>
@@ -238,9 +250,12 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Zo-e0-Xob"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM1-BA-zHs" customClass="RoundButton" customModule="calculatorBootCamp" customModuleProvider="target">
-                                                <rect key="frame" x="277.66666666666669" y="0.0" width="75.333333333333314" height="75.666666666666671"/>
+                                                <rect key="frame" x="277.66666666666669" y="0.0" width="75.333333333333314" height="75.666666666666686"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -251,7 +266,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyg-5Q-lf1"/>
+                                                    <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6AA-B2-3fn"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -270,6 +285,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zja-Rv-CG1"/>
+                                                </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="gPN-6M-tlV">
                                                 <rect key="frame" x="185" y="0.0" width="168" height="75.333333333333329"/>
@@ -297,6 +315,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="resultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgR-1I-nVR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>

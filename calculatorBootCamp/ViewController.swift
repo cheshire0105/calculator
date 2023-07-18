@@ -7,50 +7,82 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     
     
     @IBOutlet weak var resultText: UITextField!
     
-    var firstNumber : Double = 0
-    var secondNumber : Double = 0
+    
+    var firstNumber : String = ""
+    var secondNumber : String = ""
+    
+    var operatorString : String = ""
     
     
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
+        
+    }
+    
+    
+    @IBAction func numButton(_ sender: UIButton) {
+        
+        if firstNumber.isEmpty == true {
+            guard let firstSenderNum = sender.titleLabel?.text else{ return }
+            
+            
+            firstNumber += firstSenderNum
+            
+        }else {
+            guard let secondSenderNum = sender.titleLabel?.text else {return}
+            
+            secondNumber += secondSenderNum
+        }
+        
+        
+        
+        print("첫번째:\(firstNumber), 두번째:\(secondNumber)")
+        
+        var result = firstNumber + secondNumber
+        
+        print(result)
+        
+ /*
+        1단계 : 강제로 더해지게....
+        2단계 : 더하기 구현... 강제 말구....
+        3단계.....
+        4단계.....
+        5단계.....
+        
+*/
+        
+        
+        
+        
+    
+        
+    }
 
-    }
     
     
-    @IBAction func acButton(_ sender: Any) {
-        
-    }
-    
-    
-    @IBAction func plusButton(_ sender: Any) {
-        
-    }
-    
-    
-    @IBAction func minusButton(_ sender: Any) {
-        
-    }
-    
-    
-    
-    @IBAction func divideButton(_ sender: Any) {
+    @IBAction func plusButton(_ sender: UIButton) {
+  
         
         
     }
     
     
-    
-    @IBAction func multiplyButton(_ sender: Any) {
-        
+    @IBAction func resultButton(_ sender: UIButton) {
+     
         
     }
+    
     
 }
+
+
