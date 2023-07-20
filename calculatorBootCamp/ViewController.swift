@@ -7,82 +7,118 @@
 
 import UIKit
 
-
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
+    @IBOutlet weak var resultLabel : UILabel!
     
     
-    @IBOutlet weak var resultText: UITextField!
+    var numOne = ""
+    var operatorString = ""
+    var numTwo = ""
     
-    
-    var firstNumber : String = ""
-    var secondNumber : String = ""
-    
-    var operatorString : String = ""
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        
-    }
-    
-    
-    @IBAction func numButton(_ sender: UIButton) {
-        
-        if firstNumber.isEmpty == true {
-            guard let firstSenderNum = sender.titleLabel?.text else{ return }
-            
-            
-            firstNumber += firstSenderNum
-            
-        }else {
-            guard let secondSenderNum = sender.titleLabel?.text else {return}
-            
-            secondNumber += secondSenderNum
+    // Number button actions
+    @IBAction func numberButtonTapped(_ sender: UIButton) {
+        guard let numberText = sender.titleLabel?.text else {
+            return
         }
         
-        
-        
-        print("첫번째:\(firstNumber), 두번째:\(secondNumber)")
-        
-        var result = firstNumber + secondNumber
-        
-        print(result)
-        
- /*
-        1단계 : 강제로 더해지게....
-        2단계 : 더하기 구현... 강제 말구....
-        3단계.....
-        4단계.....
-        5단계.....
-        
-*/
-        
-        
-        
-        
-    
-        
+        if operatorString.isEmpty {
+            numOne += numberText
+            resultLabel.text = numOne
+        } else {
+            if numTwo.isEmpty {
+                resultLabel.text = ""
+            }
+            
+            numTwo += numberText
+            resultLabel.text! += numberText
+        }
     }
+    
+    // Operator button actions
+    @IBAction func operatorButtonTapped(_ sender: UIButton) {
+        guard let operatorText = sender.titleLabel?.text else {
+            return
+        }
+        
+        if !numTwo.isEmpty {
+            calculateResult()
+        }
+        
+        if numOne.isEmpty {
+            numOne = operatorText
+           // resultLabel.text = operatorText
+        } else if operatorString.isEmpty {
+            operatorString = operatorText
+           // resultLabel.text = operatorText
+        } else if operatorString.isEmpty && !numOne.isEmpty {
+            operatorString = operatorText
+           // resultLabel.text = operatorText
+        }
+    }
+    
+    // Calculate result
+    @IBAction func calculateButtonTapped(_ sender: UIButton) {
+        if !numTwo.isEmpty {
+            calculateResult()
+        } else {
+            showAlert(message: "숫자를 먼저 입력하세요.")
+        }
+    }
+    
+    // Clear all values
+    @IBAction func clearButtonTapped(_ sender: UIButton) {
+        numOne = ""
+        operatorString = ""
+        numTwo = ""
+        resultLabel.text = ""
+        resultLabel.text = ""
+    }
+    
+    
+    @IBAction func plusminus(_ sender: UIButton) {
+        resultLabel.text = numOne
+        numOne = String(Double(numOne) * -1)
+    }
+    
+    // Helper method to calculate the result
+    func calculateResult() {
+        guard let numberOne = Double(numOne), let numberTwo = Double(numTwo) else {
+            showAlert(message: "유효한 숫자를 입력하세요.")
+            return
+        }
+        
+        var result: Double = 0.0
+        switch operatorString {
+        case "+":
+            result = numberOne + numberTwo
+        case "-":
+            result = numberOne - numberTwo
+        case "*":
+            result = numberOne * numberTwo
+        case "/":
+            result = numberOne / numberTwo
+        default:
+            break
+        }
+        
+        let formatter = NumberFormatter()
+       // formatter.minimumFractionDigits = 3
+        formatter.maximumFractionDigits = 6
 
-    
-    
-    @IBAction func plusButton(_ sender: UIButton) {
-  
+        let resultString = formatter.string(from: NSNumber(value: result)) ?? "0"
+                 print(resultString)
         
-        
+        numOne = String(result)
+        numTwo = ""
+        operatorString = ""
+        resultLabel.text = ""
+        resultLabel.text = resultString
     }
     
-    
-    @IBAction func resultButton(_ sender: UIButton) {
-     
-        
+    // Helper method to show an alert message
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: "알림", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
-    
-    
 }
-
-

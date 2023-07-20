@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0789921C2A675F15006ABF50 /* clacultor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789921B2A675F15006ABF50 /* clacultor.swift */; };
 		FF557B072A656977001EDEB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF557B062A656977001EDEB4 /* AppDelegate.swift */; };
 		FF557B092A656977001EDEB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF557B082A656977001EDEB4 /* SceneDelegate.swift */; };
 		FF557B0E2A656977001EDEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF557B0C2A656977001EDEB4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0789921B2A675F15006ABF50 /* clacultor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clacultor.swift; sourceTree = "<group>"; };
 		FF557B032A656977001EDEB4 /* calculatorBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF557B062A656977001EDEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF557B082A656977001EDEB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				FF557B0F2A65697A001EDEB4 /* Assets.xcassets */,
 				FF557B112A65697A001EDEB4 /* LaunchScreen.storyboard */,
 				FF557B142A65697A001EDEB4 /* Info.plist */,
+				0789921B2A675F15006ABF50 /* clacultor.swift */,
 			);
 			path = calculatorBootCamp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				FF557B072A656977001EDEB4 /* AppDelegate.swift in Sources */,
 				FF557B232A658D8A001EDEB4 /* Roundbutton.swift in Sources */,
 				FF557B212A657CC3001EDEB4 /* ViewController.swift in Sources */,
+				0789921C2A675F15006ABF50 /* clacultor.swift in Sources */,
 				FF557B092A656977001EDEB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
